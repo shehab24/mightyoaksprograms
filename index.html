@@ -202,7 +202,7 @@
                       data-bs-target="#collapseTwo"
                       aria-expanded="false"
                       aria-controls="collapseTwo">
-                      Accordion Item #2
+                      BILLING INFORMATION
                     </button>
                   </h2>
                   <div
@@ -211,15 +211,58 @@
                     aria-labelledby="headingTwo"
                     data-bs-parent="#accordionExample">
                     <div class="accordion-body">
-                      <strong>This is the second item's accordion body.</strong>
-                      It is hidden by default, until the collapse plugin adds
-                      the appropriate classes that we use to style each element.
-                      These classes control the overall appearance, as well as
-                      the showing and hiding via CSS transitions. You can modify
-                      any of this with custom CSS or overriding our default
-                      variables. It's also worth noting that just about any HTML
-                      can go within the <code>.accordion-body</code>, though the
-                      transition does limit overflow.
+                      <div class="billing_forms_block">
+                        <form action="">
+                          <div class="first_name_input_box">
+                            <label for="first_name">First Name</label>
+                            <input
+                              type="text"
+                              name="first_name"
+                              id="first_name" />
+                          </div>
+                          <div class="last_name_input_box">
+                            <div class="lastname_block_ele">
+                              <label for="last_name">Last Name</label>
+                              <input
+                                type="text"
+                                name="last_name"
+                                id="last_name" />
+                            </div>
+                            <div class="suffix_block_ele">
+                              <label for="suffix">Suffix (optional)</label>
+                              <input type="text" name="suffix" id="suffix" />
+                            </div>
+                          </div>
+                          <div class="email_input_box">
+                            <label for="email">Email</label>
+                            <input type="email" name="email" id="email" />
+                          </div>
+                          <div class="street_input_box">
+                            <label for="street">Street Address</label>
+                            <input type="text" name="street" id="street" />
+                          </div>
+                          <div class="street_2_input_box">
+                            <label for="street_2">Street 2 (optional)</label>
+                            <input type="text" name="street_2" id="street_2" />
+                          </div>
+                          <div class="city_input_box">
+                            <label for="city">City</label>
+                            <input type="text" name="city" id="city" />
+                          </div>
+                          <div class="state_and_zip_box">
+                            <div class="state">
+                              <label for="state">State</label>
+                              <input type="text" name="state" id="state" />
+                            </div>
+                            <div class="zip">
+                              <label for="zip">Zip Code</label>
+                              <input type="text" name="zip" id="zip" />
+                            </div>
+                          </div>
+
+                          <button>Next</button>
+                        </form>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -232,7 +275,7 @@
                       data-bs-target="#collapseThree"
                       aria-expanded="false"
                       aria-controls="collapseThree">
-                      Accordion Item #3
+                      Payment Information
                     </button>
                   </h2>
                   <div
@@ -241,16 +284,204 @@
                     aria-labelledby="headingThree"
                     data-bs-parent="#accordionExample">
                     <div class="accordion-body">
-                      <strong>This is the third item's accordion body.</strong>
-                      It is hidden by default, until the collapse plugin adds
-                      the appropriate classes that we use to style each element.
-                      These classes control the overall appearance, as well as
-                      the showing and hiding via CSS transitions. You can modify
-                      any of this with custom CSS or overriding our default
-                      variables. It's also worth noting that just about any HTML
-                      can go within the <code>.accordion-body</code>, though the
-                      transition does limit overflow.
+                      <ul class="nav nav-tabs" id="myTab" role="tablist">
+                        <li class="nav-item payment" role="presentation">
+                          <button
+                            class="nav-link active"
+                            id="paypal-tab"
+                            data-bs-toggle="tab"
+                            data-bs-target="#paypal"
+                            type="button"
+                            role="tab"
+                            aria-controls="paypal"
+                            aria-selected="true">
+                            <img
+                              class="paypal_tab_img"
+                              src="./assets/paypal.png"
+                              alt="" />
+                          </button>
+                        </li>
+                        <li class="nav-item payment" role="presentation">
+                          <button
+                            class="nav-link"
+                            id="bank-tab"
+                            data-bs-toggle="tab"
+                            data-bs-target="#bank"
+                            type="button"
+                            role="tab"
+                            aria-controls="bank"
+                            aria-selected="false">
+                            Bank Account
+                          </button>
+                        </li>
+                        <li class="nav-item payment" role="presentation">
+                          <button
+                            class="nav-link"
+                            id="credit-tab"
+                            data-bs-toggle="tab"
+                            data-bs-target="#credit"
+                            type="button"
+                            role="tab"
+                            aria-controls="credit"
+                            aria-selected="false">
+                            Credit Card
+                          </button>
+                        </li>
+                      </ul>
+                      <div class="tab-content" id="myTabContent">
+                        <div
+                          class="tab-pane fade show active"
+                          id="paypal"
+                          role="tabpanel"
+                          aria-labelledby="paypal-tab">
+                          <div class="tab_bank_card_info">
+                            <div class="card_number_block">
+                              <label for="card_number"
+                                >Credit Card Number:</label
+                              >
+                              <input type="text" id=" card_number" />
+                            </div>
+
+                            <div class="expiration_and_cvv_block">
+                              <div class="expiration">
+                                <label for="expire">Expiration Date:</label>
+                                <input type="text" id=" expire" />
+                              </div>
+                              <div class="cvv">
+                                <label for="cvv">CVV Number:</label>
+                                <input type="text" id=" cvv" />
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div
+                          class="tab-pane fade"
+                          id="bank"
+                          role="tabpanel"
+                          aria-labelledby="bank-tab">
+                          <div class="tab_bank_card_info">
+                            <div class="card_number_block">
+                              <label for="card_number"
+                                >Credit Card Number:</label
+                              >
+                              <input type="text" id=" card_number" />
+                            </div>
+
+                            <div class="expiration_and_cvv_block">
+                              <div class="expiration">
+                                <label for="expire">Expiration Date:</label>
+                                <input type="text" id=" expire" />
+                              </div>
+                              <div class="cvv">
+                                <label for="cvv">CVV Number:</label>
+                                <input type="text" id=" cvv" />
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div
+                          class="tab-pane fade"
+                          id="credit"
+                          role="tabpanel"
+                          aria-labelledby="credit-tab">
+                          <div class="tab_bank_card_info">
+                            <div class="card_number_block">
+                              <label for="card_number"
+                                >Credit Card Number:</label
+                              >
+                              <input type="text" id=" card_number" />
+                            </div>
+
+                            <div class="expiration_and_cvv_block">
+                              <div class="expiration">
+                                <label for="expire">Expiration Date:</label>
+                                <input type="text" id=" expire" />
+                              </div>
+                              <div class="cvv">
+                                <label for="cvv">CVV Number:</label>
+                                <input type="text" id=" cvv" />
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <button>DONATE</button>
+                      </div>
                     </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- end start program section  -->
+
+    <!-- start MIGHTY OAKS’ IMPACT section  -->
+
+    <section class="mighty_oaks_section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-7">
+            <div class="mighty_oaks_left_block">
+              <h2>MIGHTY OAKS’ IMPACT</h2>
+              <div class="row">
+                <div class="col-md-4">
+                  <div class="number_box">
+                    <h3>400,000</h3>
+                    <span>Resiliency Event Attendees</span>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="number_box">
+                    <h3>4,500</h3>
+                    <span>Program Graduates</span>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="number_box">
+                    <h3>225,000</h3>
+                    <span>Books Distributed</span>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-4">
+                  <div class="number_box">
+                    <h3>35</h3>
+                    <span>Annual Legacy Programs</span>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="number_box">
+                    <h3>72</h3>
+                    <span>Mighty Oaks Events Per Year</span>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="number_box">
+                    <h3>35</h3>
+                    <span>Mighty Oaks Outposts</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-5">
+            <div class="trusted_by_box">
+              <h2>trusted by</h2>
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="trusted_img_block">
+                    <img src="./assets/trusted_1.png" alt="" />
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="trusted_img_block">
+                    <img src="./assets/trusted_2.png" alt="" />
                   </div>
                 </div>
               </div>

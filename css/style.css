@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Quicksand:wght@300;400;500;600;700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:wght@300;400;500;600;700&family=Montserrat:wght@300;400;500;600;700&family=Quicksand:wght@300;400;500;600;700&display=swap');
 * {
   margin: 0;
   padding: 0;
@@ -161,9 +161,10 @@ header {
 
 div#accordionExample {
   width: 90%;
-  height: 850px !important;
+  height: 800px !important;
   background: #fff;
-  margin: -315px auto 0px auto;
+  margin: -270px auto 0px auto;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 .accordion-item:first-of-type .accordion-button {
   border-radius: 0px !important;
@@ -172,11 +173,19 @@ div#accordionExample {
   border: 0;
 }
 .accordion-button {
-  background-color: #f1f3f3;
+  background-color: #f7f7f7;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 30px;
+  color: #555555;
 }
 .accordion_top_content_block {
   width: 100%;
-  padding: 40px;
+  padding: 20px 40px;
+}
+.accordion_top_content_block.active {
+  display: none;
 }
 .accordion_top_content_block h2 {
   font-size: 42px;
@@ -200,6 +209,9 @@ div#accordionExample {
   color: #be1e2d;
   font-weight: 600;
   font-family: 'Montserrat';
+}
+.accordion-button.collapsed {
+  border-bottom: 1px solid #e4e7e7 !important;
 }
 .accordion-button:not(.collapsed) {
   background-color: #ffffff;
@@ -282,4 +294,289 @@ button.nav-link.active {
   outline: none;
   font-size: 30px;
   margin: 10px 0px;
+}
+
+/* billing information accordion   */
+.billing_forms_block {
+  width: 100%;
+  padding: 0px 30px;
+}
+.first_name_input_box {
+  width: 100%;
+  margin-bottom: 15px;
+}
+.first_name_input_box label {
+  display: block;
+  font-family: 'Montserrat';
+  font-weight: 400;
+  font-size: 14px;
+}
+.first_name_input_box input {
+  width: 100%;
+  padding: 5px;
+  background: #ffffff;
+  border: 1px solid #cccccc;
+}
+.last_name_input_box {
+  width: 100%;
+  display: flex;
+  margin-bottom: 15px;
+}
+.lastname_block_ele {
+  width: 65%;
+  margin-right: 5px;
+}
+.lastname_block_ele label {
+  display: block;
+  font-family: 'Montserrat';
+  font-weight: 400;
+  font-size: 14px;
+}
+.lastname_block_ele input {
+  width: 100%;
+  padding: 5px;
+  background: #ffffff;
+  border: 1px solid #cccccc;
+}
+.suffix_block_ele {
+  width: 35%;
+  margin-left: 5px;
+}
+.suffix_block_ele label {
+  display: block;
+  font-family: 'Montserrat';
+  font-weight: 400;
+  font-size: 14px;
+}
+.suffix_block_ele input {
+  width: 100%;
+  padding: 5px;
+  background: #ffffff;
+  border: 1px solid #cccccc;
+}
+.email_input_box {
+  width: 100%;
+  margin-bottom: 15px;
+}
+.email_input_box input {
+  width: 100%;
+  padding: 5px;
+  background: #ffffff;
+  border: 1px solid #cccccc;
+}
+.email_input_box label {
+  display: block;
+  font-family: 'Montserrat';
+  font-weight: 400;
+  font-size: 14px;
+}
+.street_input_box {
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.street_input_box input {
+  width: 100%;
+  padding: 5px;
+  background: #ffffff;
+  border: 1px solid #cccccc;
+}
+.street_input_box label {
+  display: block;
+  font-family: 'Montserrat';
+  font-weight: 400;
+  font-size: 14px;
+}
+.street_2_input_box {
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.street_2_input_box input {
+  width: 100%;
+  padding: 5px;
+  background: #ffffff;
+  border: 1px solid #cccccc;
+}
+.street_2_input_box label {
+  display: block;
+  font-family: 'Montserrat';
+  font-weight: 400;
+  font-size: 14px;
+}
+.city_input_box {
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.city_input_box input {
+  width: 100%;
+  padding: 5px;
+  background: #ffffff;
+  border: 1px solid #cccccc;
+}
+.city_input_box label {
+  display: block;
+  font-family: 'Montserrat';
+  font-weight: 400;
+  font-size: 14px;
+}
+.state_and_zip_box {
+  width: 100%;
+  display: flex;
+  margin-bottom: 15px;
+}
+.state_and_zip_box .state {
+  width: 50%;
+  margin-right: 5px;
+}
+.state_and_zip_box .zip {
+  width: 50%;
+  margin-left: 5px;
+}
+
+.state_and_zip_box input {
+  width: 100%;
+  padding: 5px;
+  background: #ffffff;
+  border: 1px solid #cccccc;
+}
+.state_and_zip_box label {
+  display: block;
+  font-family: 'Montserrat';
+  font-weight: 400;
+  font-size: 14px;
+}
+form button {
+  width: 100%;
+  padding: 5px;
+  background-color: #be1e2d;
+  color: #fff;
+  border: none;
+  outline: none;
+  font-size: 30px;
+  margin: 12px 0px;
+}
+li.nav-item.payment {
+  width: 31% !important;
+  border: 0;
+  margin: 0px 5px;
+  font-size: 14px;
+}
+img.paypal_tab_img {
+  margin: 0;
+  padding: 0;
+  height: 23px;
+}
+.tab_bank_card_info {
+  padding: 15px 10px;
+}
+.card_number_block {
+  width: 100%;
+  margin-bottom: 15px;
+}
+.card_number_block label {
+  display: block;
+  font-family: 'Montserrat';
+  font-weight: 400;
+  font-size: 14px;
+}
+.card_number_block input {
+  width: 100%;
+  padding: 8px;
+  background: #ffffff;
+  border: 1px solid #cccccc;
+}
+.expiration_and_cvv_block {
+  width: 100%;
+  display: flex;
+  margin-bottom: 15px;
+}
+.expiration,
+.cvv {
+  width: 50%;
+}
+
+.cvv {
+  margin-left: 5px;
+}
+.expiration label {
+  display: block;
+  font-family: 'Montserrat';
+  font-weight: 400;
+  font-size: 14px;
+}
+.expiration input {
+  width: 100%;
+  padding: 8px;
+  background: #ffffff;
+  border: 1px solid #cccccc;
+}
+.cvv label {
+  display: block;
+  font-family: 'Montserrat';
+  font-weight: 400;
+  font-size: 14px;
+}
+.cvv input {
+  width: 100%;
+  padding: 8px;
+  background: #ffffff;
+  border: 1px solid #cccccc;
+}
+.mighty_oaks_section {
+  padding: 20px 0px;
+}
+
+.trusted_by_box {
+  width: 90%;
+  text-align: center;
+  margin: 0px auto 0px auto;
+}
+.trusted_by_box h2 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 30px;
+  color: #1a4474;
+  margin-bottom: 25px;
+}
+.mighty_oaks_left_block {
+  width: 100%;
+}
+.mighty_oaks_left_block h2 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 30px;
+  color: #1a4474;
+}
+.number_box {
+  width: 100%;
+  background: #e4e7e7;
+  border-radius: 0px;
+  margin: 10px 10px 10px 0px;
+  padding: 20px 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.number_box h3 {
+  font-family: 'Cormorant';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 42px;
+  line-height: 55px;
+  text-align: center;
+  color: #be1e2d;
+}
+.number_box span {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  color: #be1e2d;
 }
