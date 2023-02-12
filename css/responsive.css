@@ -163,8 +163,14 @@
   .suffix_block_ele {
     width: auto;
   }
+  li.nav-item.payment {
+    width: 29% !important;
+  }
   li.nav-item.payment button {
     height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   .mobile_slide_menu {
     width: 300px;
@@ -272,10 +278,75 @@
     color: #908f8f;
   }
   .popup_main {
-    height: auto;
+    height: 90%;
+    max-height: 100vh;
   }
   .our_programs_block {
     margin-top: 30px;
+  }
+  .footer_accordion_block {
+    display: block;
+  }
+  .footer_accordion_block button.accordion-button {
+    padding: 0px;
+    text-align: left;
+    background-color: #183867 !important;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 22px;
+    text-transform: uppercase;
+    color: #ffffff;
+  }
+  .footer_accordion_block .accordion-item {
+    margin: 5px 0px;
+  }
+  .footer_accordion_block .accordion-button.collapsed {
+    border-bottom: 1px solid #929292 !important;
+  }
+  .footer_accordion_block .accordion-button::after {
+    flex-shrink: 0;
+    margin-left: auto;
+    content: '';
+    filter: invert(1);
+  }
+  .footer_accordion_block button.accordion-button.collapsed {
+    margin: 0px;
+    padding: 0px;
+  }
+  .footer_accordion_block div#accordionFlushExample {
+    padding: 5px 10px;
+  }
+  .footer_accordion_block .accordion-header {
+    padding: 10px 0px;
+    background-color: #183867 !important;
+  }
+  .footer_accordion_block .accordion-body ul li a {
+    color: #333;
+    font-size: 14px;
+  }
+  .footer_accordion_block .apply_page,
+  .calendar,
+  .Store_page {
+    width: 100%;
+    padding: 0px;
+    border-bottom: 1px solid #929292;
+    margin-top: 10px;
+  }
+  .footer_accordion_block .apply_page,
+  .calendar,
+  .Store_page h3 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 22px;
+    text-transform: uppercase;
+    color: #ffffff;
+  }
+  .forHideFooter {
+    display: none;
   }
 }
 @media screen and (max-width: 768px) {
@@ -314,7 +385,7 @@
     width: 100%;
   }
   .popup_left img {
-    width: 70%;
+    width: 55%;
   }
   .footer_social_icon {
     flex-direction: inherit !important;

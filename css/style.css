@@ -235,7 +235,7 @@ div#accordionExample {
   box-shadow: none;
   font-style: normal;
   font-weight: 400;
-  font-size: 32px;
+  font-size: 24px;
   line-height: 30px;
   color: #555555;
 }
@@ -972,6 +972,7 @@ footer p {
 .popup_main {
   width: 1130px;
   height: 630px;
+  max-height: 100vh;
   padding: 10px;
   background-color: #fff;
   display: flex;
@@ -1069,5 +1070,8 @@ form button {
   padding: 10px 20px;
 }
 .team_img_slider_section {
+  display: none;
+}
+.footer_accordion_block {
   display: none;
 }
