@@ -10,6 +10,22 @@ let accordion_btn_three = document.querySelector("#headingThree button");
 let accordion_top_content_block = document.querySelector(".accordion_top_content_block");
 
 
+let mobileCloseBtn = document.querySelector(".cross_bar");
+let mobileOpenBtn = document.querySelector(".mobile_bars");
+let mobileMenu = document.querySelector(".mobile_slide_menu");
+
+
+// for popup
+
+let popup_close_btn = document.querySelector(".popup_close_btn");
+let popup = document.querySelector(".popup");
+
+popup_close_btn?.addEventListener("click", function(){
+popup.style.display = 'none';
+
+});
+
+
 
 accordion_btn_one.addEventListener("click", function(){
     accordion_top_content_block.classList.remove("active");
@@ -42,3 +58,53 @@ accordion_btn_three.addEventListener("click", function(){
 
 });
 
+
+
+
+// for mobile menu close 
+
+mobileOpenBtn.addEventListener("click",function(){
+mobileMenu.classList.add("active");
+
+});
+
+mobileCloseBtn.addEventListener("click",function(){
+mobileMenu.classList.remove("active");
+
+});
+
+
+
+$('.multiple_items').slick({
+    dots: true,
+    infinite: true,
+    speed: 300,
+    slidesToShow: 2,
+    slidesToScroll: 1,
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 2,
+          infinite: true,
+          dots: true
+        }
+      },
+      {
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1
+        }
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1
+        }
+      }
+ 
+    ]
+  });
