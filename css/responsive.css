@@ -78,7 +78,9 @@
   }
   .video_img_block {
     width: 100%;
-    background-size: contain;
+    background-size: cover;
+    background-position: center;
+    height: 220px;
   }
   .warrior_block_box {
     width: 80%;
@@ -122,14 +124,15 @@
     /* width: 50%; */
   }
   .mobile_header_box > button {
-    background: #be1e2d !important;
+    background: #183867 !important;
     border: 0;
     box-shadow: none;
     color: #fff !important;
     font-family: 'Montserrat';
     border-radius: 0;
-    font-size: 16px;
-    padding: 10px;
+    font-size: 20px;
+    padding: 10px 12px;
+    font-family: 'Heavyweight Regular';
   }
   span.mobile_bars {
     font-size: 23px;
@@ -226,6 +229,12 @@
   }
   .people_talk_content h2 {
     margin-bottom: 0px;
+  }
+  .trusted_img_block img {
+    width: 100%;
+  }
+  .footer_bottom_middle_block {
+    display: none;
   }
 }
 
@@ -347,6 +356,22 @@
   }
   .forHideFooter {
     display: none;
+  }
+  .never_fight_content {
+    margin-top: 220px;
+    padding-top: 80px;
+  }
+  .accordion_top_content_block h2 {
+    font-size: 28px;
+  }
+  .warrior_for_desktop {
+    display: none;
+  }
+  .our_warrior_for_mobile {
+    display: block;
+  }
+  .our_warrior_for_mobile .warrior_block_box {
+    width: 85%;
   }
 }
 @media screen and (max-width: 768px) {

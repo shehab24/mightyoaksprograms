@@ -683,6 +683,9 @@ img.paypal_tab_img {
   flex-direction: column; */
   padding: 50px 0px;
 }
+.our_warrior_for_mobile {
+  display: none;
+}
 .warrior_content {
   width: 100%;
   padding: 20px 0px;
