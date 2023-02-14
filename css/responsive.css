@@ -61,6 +61,7 @@
   }
   .warrior_content h2 {
     font-size: 25px;
+    margin-bottom: 0px;
   }
   .be_part_section p {
     font-size: 15px;
@@ -174,6 +175,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 4px;
   }
   .mobile_slide_menu {
     width: 300px;
@@ -235,6 +237,41 @@
   }
   .footer_bottom_middle_block {
     display: none;
+  }
+  .never_fight_content img {
+    display: none;
+  }
+  .payment_information {
+    padding: 0px;
+  }
+  button.accordion-button {
+    padding: 16px 28px;
+  }
+  .donation_content {
+    padding: 0px 5px;
+  }
+  .war_content_box {
+    padding: 20px 5px;
+  }
+  .people_talk_img_block {
+    width: 100%;
+  }
+  .pt_img_box {
+    width: 100%;
+    height: 50px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .be_part_section h2 {
+    text-align: center;
+  }
+  .mighty_oaks_left_block h2 {
+    text-align: center;
+  }
+  .our_programs_block h2 {
+    text-align: center;
   }
 }
 
@@ -310,6 +347,7 @@
   }
   .footer_accordion_block .accordion-item {
     margin: 5px 0px;
+    background: #183867;
   }
   .footer_accordion_block .accordion-button.collapsed {
     border-bottom: 1px solid #929292 !important;
@@ -319,6 +357,7 @@
     margin-left: auto;
     content: '';
     filter: invert(1);
+    display: none;
   }
   .footer_accordion_block button.accordion-button.collapsed {
     margin: 0px;
@@ -332,7 +371,7 @@
     background-color: #183867 !important;
   }
   .footer_accordion_block .accordion-body ul li a {
-    color: #333;
+    color: #a7b3c4;
     font-size: 14px;
   }
   .footer_accordion_block .apply_page,
@@ -358,8 +397,11 @@
     display: none;
   }
   .never_fight_content {
-    margin-top: 220px;
-    padding-top: 80px;
+    margin-top: 100px;
+    padding-top: 0px;
+  }
+  .accordion_top_content_block {
+    padding: 40px 28px;
   }
   .accordion_top_content_block h2 {
     font-size: 28px;
@@ -373,10 +415,30 @@
   .our_warrior_for_mobile .warrior_block_box {
     width: 85%;
   }
+  button.accordion-button.card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  button.accordion-button.card-header span {
+    color: #fff;
+  }
+  .FOLLOW_US {
+    margin-bottom: 130px;
+  }
+  ul.footer_social_icon {
+    display: none;
+  }
+  .trusted_by_box {
+    margin-bottom: 15px;
+  }
 }
 @media screen and (max-width: 768px) {
   .footer_social_icon {
     flex-direction: inherit !important;
+  }
+  div#accordionExample {
+    margin-top: -370px;
   }
 }
 @media screen and (max-width: 677px) {
@@ -417,4 +479,10 @@
   }
 }
 @media screen and (max-width: 380px) {
+  li.nav-item.payment button {
+    font-size: 9px;
+  }
+  .war_content_box h2 {
+    font-size: 20px;
+  }
 }

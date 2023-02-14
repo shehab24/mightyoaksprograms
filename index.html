@@ -180,7 +180,8 @@
                       data-bs-toggle="collapse"
                       data-bs-target="#collapseOne"
                       aria-expanded="true"
-                      aria-controls="collapseOne">
+                      aria-controls="collapseOne" onclick="accordionFunc('Donation')" disabled>
+                      
                       Donation Amount
                     </button>
                   </h2>
@@ -277,7 +278,7 @@
                       data-bs-toggle="collapse"
                       data-bs-target="#collapseTwo"
                       aria-expanded="false"
-                      aria-controls="collapseTwo">
+                      aria-controls="collapseTwo" onclick="accordionFunc('BILLING')">
                       BILLING INFORMATION
                     </button>
                   </h2>
@@ -350,7 +351,7 @@
                       data-bs-toggle="collapse"
                       data-bs-target="#collapseThree"
                       aria-expanded="false"
-                      aria-controls="collapseThree">
+                      aria-controls="collapseThree" onclick="accordionFunc('Payment')">
                       Payment Information
                     </button>
                   </h2>
@@ -503,7 +504,8 @@
     <section class="mighty_oaks_section">
       <div class="container">
         <div class="row">
-          <div class="col-xl-7 col-lg-12 col-md-12 col-sm-12">
+          <div
+            class="col-xl-7 col-lg-12 col-md-12 col-sm-12 order-xxl-1 order-lg-1 order-md-1 order-2">
             <div class="mighty_oaks_left_block">
               <h2>MIGHTY OAKS’ IMPACT</h2>
               <div class="row">
@@ -548,7 +550,8 @@
               </div>
             </div>
           </div>
-          <div class="col-xl-5 col-lg-12 col-md-12 col-sm-12">
+          <div
+            class="col-xl-5 col-lg-12 col-md-12 col-sm-12 order-xxl-2 order-lg-2 order-md-2 order-1">
             <div class="trusted_by_box">
               <h2>trusted by</h2>
               <div class="row">
@@ -759,17 +762,123 @@
         <div class="row">
           <div class="team_slider_main multiple_items">
             <div class="team_slider">
-              <img src="./assets/team_1.png" alt="" />
+              <div class="people_talk_img_block row">
+                <div class="col-6">
+                  <div class="pt_img_box">
+                    <img src="./assets/people1.png" alt="">
+                  </div>
+
+                </div>
+                <div class="col-6">
+                  <div class="pt_img_box">
+                    <img src="./assets/people2.png" alt="">
+                  </div>
+
+                </div>
+                <div class="col-6">
+                  <div class="pt_img_box">
+                    <img src="./assets/people3.png" alt="">
+                  </div>
+
+                </div>
+                <div class="col-6">
+                  <div class="pt_img_box">
+                    <img src="./assets/people4.png" alt="">
+                  </div>
+
+                </div>
+                <div class="col-12">
+                  <div class="pt_img_box">
+                    <img src="./assets/people9.png" alt="">
+                  </div>
+
+                </div>
+                
+                
+               
+               
+             
+               
+              </div>
             </div>
             <div class="team_slider">
-              <img src="./assets/team_2.png" alt="" />
+              <div class="people_talk_img_block row">
+                <div class="col-6">
+                  <div class="pt_img_box">
+                    <img src="./assets/people5.png" alt="">
+                  </div>
+
+                </div>
+                <div class="col-6">
+                  <div class="pt_img_box">
+                    <img src="./assets/people6.png" alt="">
+                  </div>
+
+                </div>
+                <div class="col-6">
+                  <div class="pt_img_box">
+                    <img src="./assets/people7.png" alt="">
+                  </div>
+
+                </div>
+                <div class="col-6">
+                  <div class="pt_img_box">
+                    <img src="./assets/people8.png" alt="">
+                  </div>
+
+                </div>
+                <div class="col-12">
+                  <div class="pt_img_box">
+                    <img src="./assets/people11.png" alt="">
+                  </div>
+
+                </div>
+                
+                
+              </div>
             </div>
             <div class="team_slider">
-              <img src="./assets/team_1.png" alt="" />
+              <div class="people_talk_img_block row">
+                <div class="col-6">
+                  <div class="pt_img_box">
+                    <img src="./assets/people10.png" alt="">
+                  </div>
+
+                </div>
+                <div class="col-6">
+                  <div class="pt_img_box">
+                    <img src="./assets/people15.png" alt="">
+                  </div>
+
+                </div>
+                <div class="col-6">
+                  <div class="pt_img_box">
+                    <img src="./assets/people13.png" alt="">
+                  </div>
+
+                </div>
+                <div class="col-6">
+                  <div class="pt_img_box">
+                    <img src="./assets/people14.png" alt="">
+                  </div>
+
+                </div>
+                <div class="col-12">
+                  <div class="pt_img_box">
+                    <img src="./assets/people12.png" alt="">
+                  </div>
+
+                </div>
+                
+                
+               
+               
+             
+               
+              </div>
             </div>
-            <div class="team_slider">
-              <img src="./assets/team_2.png" alt="" />
-            </div>
+       
+           
           </div>
         </div>
       </div>
@@ -780,6 +889,7 @@
       <div class="container">
         <div class="row">
           <div class="never_fight_content">
+            <img src="./assets/nv_img.png" alt="" />
             <h2>Saving Lives</h2>
             <h2>Restoring Families</h2>
             <h2>Changing Legacies</h2>
@@ -810,13 +920,14 @@
             <div class="accordion-item">
               <h2 class="accordion-header" id="flush-headingOne">
                 <button
-                  class="accordion-button collapsed"
+                  class="accordion-button card-header collapsed"
                   type="button"
                   data-bs-toggle="collapse"
                   data-bs-target="#flush-collapseOne"
                   aria-expanded="false"
                   aria-controls="flush-collapseOne">
-                  About
+                  <span class="header-title float-left">About </span>
+                  <i class="fas fa-plus float-right"></i>
                 </button>
               </h2>
               <div
@@ -838,13 +949,14 @@
             <div class="accordion-item">
               <h2 class="accordion-header" id="flush-headingTwo">
                 <button
-                  class="accordion-button collapsed"
+                  class="accordion-button card-header collapsed"
                   type="button"
                   data-bs-toggle="collapse"
                   data-bs-target="#flush-collapseTwo"
                   aria-expanded="false"
                   aria-controls="flush-collapseTwo">
-                  Programs
+                  <span class="header-title float-left">Programs </span>
+                  <i class="fas fa-plus float-right"></i>
                 </button>
               </h2>
               <div
@@ -871,13 +983,14 @@
             <div class="accordion-item">
               <h2 class="accordion-header" id="flush-headingThree">
                 <button
-                  class="accordion-button collapsed"
+                  class="accordion-button  card-header collapsed"
                   type="button"
                   data-bs-toggle="collapse"
                   data-bs-target="#flush-collapseThree"
                   aria-expanded="false"
                   aria-controls="flush-collapseThree">
-                  Speakers
+                  <span class="header-title float-left"> Speakers </span>
+                  <i class="fas fa-plus float-right"></i>
                 </button>
               </h2>
               <div
@@ -898,18 +1011,19 @@
             <div class="accordion-item">
               <h2 class="accordion-header" id="flush-headingFour">
                 <button
-                  class="accordion-button collapsed"
+                  class="accordion-button  card-header collapsed"
                   type="button"
                   data-bs-toggle="collapse"
                   data-bs-target="#flush-collapseFour"
                   aria-expanded="false"
                   aria-controls="flush-collapseFour">
-                  Media
+                  <span class="header-title float-left"> Media </span>
+                  <i class="fas fa-plus float-right"></i>
                 </button>
               </h2>
               <div
                 id="flush-collapseFour"
-                class="accordion-collapse collapse"
+                class="accordion-collapse  card-header collapse"
                 aria-labelledby="flush-headingFour"
                 data-bs-parent="#accordionFlushExample">
                 <div class="accordion-body">
@@ -926,18 +1040,21 @@
             <div class="accordion-item">
               <h2 class="accordion-header" id="flush-headingFive">
                 <button
-                  class="accordion-button collapsed"
+                  class="accordion-button  card-header collapsed"
                   type="button"
                   data-bs-toggle="collapse"
                   data-bs-target="#flush-collapseFive"
                   aria-expanded="false"
                   aria-controls="flush-collapseFive">
-                  Resources
+                  
+                  <span class="header-title float-left"> Resources </span>
+                  <i class="fas fa-plus float-right"></i>
+                </button>
                 </button>
               </h2>
               <div
                 id="flush-collapseFive"
-                class="accordion-collapse collapse"
+                class="accordion-collapse  collapse"
                 aria-labelledby="flush-headingFive"
                 data-bs-parent="#accordionFlushExample">
                 <div class="accordion-body">

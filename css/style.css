@@ -166,7 +166,7 @@ header {
 
 /* right accordion design   */
 .right_accordion_block {
-  /* width: 500px; */
+  width: 500px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -791,6 +791,10 @@ h2.for_bottom_space {
   margin-top: 100px;
   padding-top: 80px;
 }
+.never_fight_content img {
+  /* margin: 10px 0px; */
+  margin-top: -110px;
+}
 .never_fight_content h2 {
   font-style: normal;
   font-weight: 400;
@@ -989,6 +993,9 @@ footer p {
   position: absolute;
   right: 20px;
   font-size: 21px;
+}
+.popup_main .popup_close_btn:hover {
+  cursor: pointer;
 }
 .popup_left {
   width: 40%;

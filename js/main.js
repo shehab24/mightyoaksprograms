@@ -25,7 +25,31 @@ popup.style.display = 'none';
 
 });
 
+$('.card-header').click(function () {
+  $(this).find('i').toggleClass('fas fa-plus fas fa-minus');
+});
 
+
+let allInfo ;
+function accordionFunc(allInfo){
+  // alert(allInfo);
+  if(allInfo == 'Donation'){
+    accordion_btn_one.disabled = true; 
+    accordion_btn_two.disabled = false; 
+    accordion_btn_three.disabled = false; 
+  }
+  if(allInfo == 'BILLING'){
+    accordion_btn_one.disabled = false; 
+    accordion_btn_two.disabled = true; 
+    accordion_btn_three.disabled = false; 
+  }
+  if(allInfo == 'Payment'){
+    accordion_btn_one.disabled = false; 
+    accordion_btn_two.disabled = false; 
+    accordion_btn_three.disabled = true; 
+  }
+
+}
 
 accordion_btn_one.addEventListener("click", function(){
     accordion_top_content_block.classList.remove("active");
