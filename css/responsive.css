@@ -1,1 +1,582 @@
-@media screen and (max-width:1199px){.container{width:100%}header{display:none}.mobile_header{display:block;overflow-x:hidden;width:100%;padding:0 20px;background-color:#fff;z-index:10;position:absolute;height:90px}.hero_banar_block{overflow-x:hidden}.mobile_header_box{width:100%;height:90px;display:flex;justify-content:space-between;align-items:center;background-color:#fff}.hero_banar{width:100%;height:1000px;position:relative;z-index:-1}.right_accordion_block{width:80%}.our_warrior_section{width:100%;height:100%;overflow-x:hidden}.people_talk_img img{width:80%}.our_programs_block{width:100%;padding:0;margin:0;margin-top:20px}.mighty_oaks_left_block{width:100%;padding:0;margin:0}.number_box{height:150px}.warrior_content h2{font-size:25px;margin-bottom:0}.be_part_section p{font-size:15px}.be_part_bottom_text span{font-size:15px}.never_fight_alone_section{width:100%;height:100%}.trusted_img_block{width:100%;margin:20px 0}.video_img_block{width:100%;background-size:cover;background-position:center}.warrior_block_box{width:80%;margin:20px auto}.war_img_box img{width:100%}.footer_social_icon li a{margin-right:20px;width:40px;height:40px}.footer_social_icon{flex-direction:column}.people_talk_content h2{font-size:36px}.footer_left_block,.footer_middle_block,.footer_right_block{display:flex;flex-direction:column;padding:10px}.about_page,.Programs_page{margin-bottom:20px}.video_img_block img{width:25%}span.mobile_logo{width:50%}span.mobile_logo img{width:100%;text-align:center}.mobile_header_box>button{background:#183867!important;border:0;box-shadow:none;color:#fff!important;font-family:'Montserrat';border-radius:0;font-size:20px;padding:10px 12px;font-family:'Heavyweight Regular'}span.mobile_bars{font-size:23px;display:flex;justify-content:center;align-items:center}.right_accordion_block{width:100%;padding:20px 0;margin:30px 0;margin-top:-600px}div#accordionExample{width:100%;height:100%!important;margin-bottom:20px}li.nav-item{width:50%;border:0;height:42px}.billing_forms_block{width:100%;padding:10px 10px}.footer_bottom_right_block{overflow-x:hidden}.suffix_block_ele{width:auto}li.nav-item.payment{width:29%!important}li.nav-item.payment button{height:50px;display:flex;justify-content:center;align-items:center;padding:4px}.mobile_slide_menu{width:300px;height:100%;background:#333;z-index:99999999999999999999;position:fixed;left:-300px;bottom:0;transition:all 0.5s;top:0}.mobile_slide_menu.active{left:0;bottom:0;top:0}.mobile_ul{margin:0;padding:0;margin-top:80px;margin-left:50px}.mobile_ul li{list-style:none;line-height:40px}.mobile_ul li a{font-size:16px;font-family:'Montserrat';color:#fff;text-decoration:none}.cross_bar{color:#fff;font-size:25px;position:absolute;right:25px;top:20px}.people_talk_img{display:none}.team_img_slider_section{display:block;overflow-x:hidden}.team_slider{display:flex!important;justify-content:center!important;align-items:center!important}.people_talk_content h2{margin-bottom:0}.footer_bottom_middle_block{display:none}.never_fight_content img{display:none}.payment_information{padding:0}button.accordion-button{padding:16px 28px}.donation_content{padding:0 5px}.war_content_box{padding:20px 5px}.people_talk_img_block{width:100%}.pt_img_box{width:100%;height:50px;margin:10px;display:flex;justify-content:center;align-items:center}.be_part_section h2{text-align:center}.mighty_oaks_left_block h2{text-align:center}.our_programs_block h2{text-align:center}.price_box{width:31%}}@media screen and (max-width:991px){.pr_content h2{font-style:normal;font-weight:400;font-size:2rem;line-height:30px;letter-spacing:.025em;color:#555;text-align:center;margin-top:0}.pr_content p{padding:5px;font-family:'Montserrat';font-style:normal;font-weight:400;font-size:16px;line-height:20px;letter-spacing:.03em;color:#908f8f}.name_phone_box input{width:100%;padding:5px;font-family:'Montserrat';font-style:normal;font-weight:400;font-size:14px;line-height:20px;background:#fff;border:1.36145px solid #b3b3b3;border-radius:13.6145px;color:#908f8f}.email_box input{width:100%;padding:5px;font-family:'Montserrat';font-style:normal;font-weight:400;font-size:14px;line-height:20px;background:#fff;border:1.36145px solid #b3b3b3;border-radius:13.6145px;color:#908f8f}i.fa-solid.fa-bars{color:#183867}.our_programs_block{margin-top:30px}.footer_accordion_block{display:block}.footer_accordion_block button.accordion-button{padding:0;text-align:left;background-color:#183867!important;font-family:'Montserrat';font-style:normal;font-weight:400;font-size:12px;line-height:22px;text-transform:uppercase;color:#fff}.footer_accordion_block .accordion-item{margin:5px 0;background:#183867}.footer_accordion_block .accordion-button.collapsed{border-bottom:1px solid #929292!important}.footer_accordion_block .accordion-button::after{flex-shrink:0;margin-left:auto;content:'';filter:invert(1);display:none}.footer_accordion_block button.accordion-button.collapsed{margin:0;padding:0}.footer_accordion_block div#accordionFlushExample{padding:5px 10px}.footer_accordion_block .accordion-header{padding:10px 0;background-color:#183867!important}.footer_accordion_block .accordion-body ul li a{color:#a7b3c4;font-size:14px}.footer_accordion_block .apply_page,.calendar,.Store_page{width:100%;padding:0;border-bottom:1px solid #929292;margin-top:10px}.footer_accordion_block .apply_page,.calendar,.Store_page h3{font-family:'Montserrat';font-style:normal;font-weight:400;font-size:12px;line-height:22px;text-transform:uppercase;color:#fff}.forHideFooter{display:none}.never_fight_content{margin-top:100px;padding-top:0}.accordion_top_content_block{padding:40px 28px}.accordion_top_content_block h2{font-size:4rem}.warrior_for_desktop{display:none}.our_warrior_for_mobile{display:block}.our_warrior_for_mobile .warrior_block_box{width:85%}button.accordion-button.card-header{display:flex;justify-content:space-between;align-items:center}button.accordion-button.card-header span{color:#fff}.FOLLOW_US{margin-bottom:130px}ul.footer_social_icon{display:none}.trusted_by_box{margin-bottom:15px}.price_block{justify-content:inherit}.price_box{width:30%}.our_warrior_section{background-repeat:repeat;background-size:contain}}@media screen and (max-width:767px){.footer_social_icon{flex-direction:inherit!important}div#accordionExample{margin-top:-370px}.be_part_section h2{text-align:center}.mighty_oaks_left_block h2{text-align:center}.accordion_top_content_block h2{font-size:3rem}.price_box{width:29%}}@media screen and (max-width:535px){.price_box{width:28%}}@media screen and (max-width:677px){.pr_content{padding:0 10px}.pr_content h2{font-size:31px;line-height:34px}.pr_content p{font-size:12px}.name_phone_box{margin-top:-10px}form button{border-radius:10px;font-size:18px;margin:24px 0}.popup_main{flex-direction:column}.popup_left{width:100%;text-align:center}.popup_right{width:100%}.popup_left img{width:80%;height:360px;object-fit:cover}.footer_social_icon{flex-direction:inherit!important}.trusted_img_block img{width:100%}}@media screen and (max-width:473px){.trusted_img_block img{width:100%;height:auto}li.nav-item.payment button{font-size:9px}.war_content_box h2{font-size:20px}.popup_left{height:auto}.popup_left img{height:270px;width:80%}.billing_btn{width:100%;padding:2px;background-color:#be1e2d;color:#fff;border:none;outline:none;font-size:28px;margin:16px 0}.email_box{width:100%;margin:0;padding:0;margin-top:-5px}.popup_right{padding:0}.pr_content h2{margin-top:18px}.pr_content p{padding:2px;line-height:18px}.accordion_top_content_block h2{font-size:2rem}}@media screen and (max-width:448px){.price_box{width:27%}}@media screen and (max-width:433px){.price_box{width:27%}.price_block{justify-content:center}}@media screen and (max-width:413px){.price_block{justify-content:center}.price_box{width:27%}}@media screen and (max-width:389px){.price_box{width:26%}}@media screen and (max-width:346px){.price_box{width:25%;font-size:14px}}
+@media screen and (max-width: 1199px) {
+  .container {
+    width: 100%;
+  }
+  header {
+    display: none;
+  }
+  .mobile_header {
+    display: block;
+    overflow-x: hidden;
+    width: 100%;
+    padding: 0 20px;
+    background-color: #fff;
+    z-index: 10;
+    position: absolute;
+    height: 90px;
+  }
+  .hero_banar_block {
+    overflow-x: hidden;
+  }
+  .mobile_header_box {
+    width: 100%;
+    height: 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+  }
+  .hero_banar {
+    width: 100%;
+    height: 1000px;
+    position: relative;
+    z-index: -1;
+  }
+  .right_accordion_block {
+    width: 80%;
+  }
+  .our_warrior_section {
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+  }
+  .people_talk_img img {
+    width: 80%;
+  }
+  .our_programs_block {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    margin-top: 20px;
+  }
+  .mighty_oaks_left_block {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+  }
+  .number_box {
+    height: 150px;
+  }
+  .warrior_content h2 {
+    font-size: 25px;
+    margin-bottom: 0;
+  }
+  .be_part_section p {
+    font-size: 15px;
+  }
+  .be_part_bottom_text span {
+    font-size: 15px;
+  }
+  .never_fight_alone_section {
+    width: 100%;
+    height: 100%;
+  }
+  .trusted_img_block {
+    width: 100%;
+    margin: 20px 0;
+  }
+  .video_img_block {
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+  }
+  .warrior_block_box {
+    width: 80%;
+    margin: 20px auto;
+  }
+  .war_img_box img {
+    width: 100%;
+  }
+  .footer_social_icon li a {
+    margin-right: 20px;
+    width: 40px;
+    height: 40px;
+  }
+  .footer_social_icon {
+    flex-direction: column;
+  }
+  .people_talk_content h2 {
+    font-size: 36px;
+  }
+  .footer_left_block,
+  .footer_middle_block,
+  .footer_right_block {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+  }
+  .about_page,
+  .Programs_page {
+    margin-bottom: 20px;
+  }
+  .video_img_block img {
+    width: 25%;
+  }
+  span.mobile_logo {
+    width: 50%;
+  }
+  span.mobile_logo img {
+    width: 100%;
+    text-align: center;
+  }
+  .mobile_header_box > button {
+    background: #183867 !important;
+    border: 0;
+    box-shadow: none;
+    color: #fff !important;
+    font-family: 'Montserrat';
+    border-radius: 0;
+    font-size: 20px;
+    padding: 10px 12px;
+    font-family: 'Heavyweight Regular';
+  }
+  span.mobile_bars {
+    font-size: 23px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .right_accordion_block {
+    width: 100%;
+    padding: 20px 0;
+    margin: 30px 0;
+    margin-top: -600px;
+  }
+  div#accordionExample {
+    width: 100%;
+    height: 100% !important;
+    margin-bottom: 20px;
+  }
+  li.nav-item {
+    width: 50%;
+    border: 0;
+    height: 42px;
+  }
+  .billing_forms_block {
+    width: 100%;
+    padding: 10px 10px;
+  }
+  .footer_bottom_right_block {
+    overflow-x: hidden;
+  }
+  .suffix_block_ele {
+    width: auto;
+  }
+  li.nav-item.payment {
+    width: 29% !important;
+  }
+  li.nav-item.payment button {
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4px;
+  }
+  .mobile_slide_menu {
+    width: 300px;
+    height: 100%;
+    background: #333;
+    z-index: 99999999999999999999;
+    position: fixed;
+    left: -300px;
+    bottom: 0;
+    transition: all 0.5s;
+    top: 0;
+  }
+  .mobile_slide_menu.active {
+    left: 0;
+    bottom: 0;
+    top: 0;
+  }
+  .mobile_ul {
+    margin: 0;
+    padding: 0;
+    margin-top: 80px;
+    margin-left: 50px;
+  }
+  .mobile_ul li {
+    list-style: none;
+    line-height: 40px;
+  }
+  .mobile_ul li a {
+    font-size: 16px;
+    font-family: 'Montserrat';
+    color: #fff;
+    text-decoration: none;
+  }
+  .cross_bar {
+    color: #fff;
+    font-size: 25px;
+    position: absolute;
+    right: 25px;
+    top: 20px;
+  }
+  .people_talk_img {
+    display: none;
+  }
+  .team_img_slider_section {
+    display: block;
+    overflow-x: hidden;
+  }
+  .team_slider {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+  }
+  .people_talk_content h2 {
+    margin-bottom: 0;
+  }
+  .footer_bottom_middle_block {
+    display: none;
+  }
+  .never_fight_content img {
+    display: none;
+  }
+  .payment_information {
+    padding: 0;
+  }
+  button.accordion-button {
+    padding: 16px 28px;
+  }
+  .donation_content {
+    padding: 0 5px;
+  }
+  .war_content_box {
+    padding: 20px 5px;
+  }
+  .people_talk_img_block {
+    width: 100%;
+  }
+  .pt_img_box {
+    width: 100%;
+    height: 50px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .be_part_section h2 {
+    text-align: center;
+  }
+  .mighty_oaks_left_block h2 {
+    text-align: center;
+  }
+  .our_programs_block h2 {
+    text-align: center;
+  }
+  .price_box {
+    width: 31%;
+  }
+}
+@media screen and (max-width: 991px) {
+  .pr_content h2 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2rem;
+    line-height: 30px;
+    letter-spacing: 0.025em;
+    color: #555;
+    text-align: center;
+    margin-top: 0;
+  }
+  .pr_content p {
+    padding: 5px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.03em;
+    color: #908f8f;
+  }
+  .name_phone_box input {
+    width: 100%;
+    padding: 5px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    background: #fff;
+    border: 1.36145px solid #b3b3b3;
+    border-radius: 13.6145px;
+    color: #908f8f;
+  }
+  .email_box input {
+    width: 100%;
+    padding: 5px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    background: #fff;
+    border: 1.36145px solid #b3b3b3;
+    border-radius: 13.6145px;
+    color: #908f8f;
+  }
+  i.fa-solid.fa-bars {
+    color: #183867;
+  }
+  .our_programs_block {
+    margin-top: 30px;
+  }
+  .footer_accordion_block {
+    display: block;
+  }
+  .footer_accordion_block button.accordion-button {
+    padding: 0;
+    text-align: left;
+    background-color: #183867 !important;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 22px;
+    text-transform: uppercase;
+    color: #fff;
+  }
+  .footer_accordion_block .accordion-item {
+    margin: 5px 0;
+    background: #183867;
+  }
+  .footer_accordion_block .accordion-button.collapsed {
+    border-bottom: 1px solid #929292 !important;
+  }
+  .footer_accordion_block .accordion-button::after {
+    flex-shrink: 0;
+    margin-left: auto;
+    content: '';
+    filter: invert(1);
+    display: none;
+  }
+  .footer_accordion_block button.accordion-button.collapsed {
+    margin: 0;
+    padding: 0;
+  }
+  .footer_accordion_block div#accordionFlushExample {
+    padding: 5px 10px;
+  }
+  .footer_accordion_block .accordion-header {
+    padding: 10px 0;
+    background-color: #183867 !important;
+  }
+  .footer_accordion_block .accordion-body ul li a {
+    color: #a7b3c4;
+    font-size: 14px;
+  }
+  .footer_accordion_block .apply_page,
+  .calendar,
+  .Store_page {
+    width: 100%;
+    padding: 0;
+    border-bottom: 1px solid #929292;
+    margin-top: 10px;
+  }
+  .footer_accordion_block .apply_page,
+  .calendar,
+  .Store_page h3 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 22px;
+    text-transform: uppercase;
+    color: #fff;
+  }
+  .forHideFooter {
+    display: none;
+  }
+  .never_fight_content {
+    margin-top: 100px;
+    padding-top: 0;
+  }
+  .accordion_top_content_block {
+    padding: 40px 28px;
+  }
+  .accordion_top_content_block h2 {
+    font-size: 4rem;
+  }
+  .warrior_for_desktop {
+    display: none;
+  }
+  .our_warrior_for_mobile {
+    display: block;
+  }
+  .our_warrior_for_mobile .warrior_block_box {
+    width: 85%;
+  }
+  button.accordion-button.card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  button.accordion-button.card-header span {
+    color: #fff;
+  }
+  .FOLLOW_US {
+    margin-bottom: 130px;
+  }
+  ul.footer_social_icon {
+    display: none;
+  }
+  .trusted_by_box {
+    margin-bottom: 15px;
+  }
+  .price_block {
+    justify-content: inherit;
+  }
+  .price_box {
+    width: 30%;
+  }
+  .our_warrior_section {
+    background-repeat: repeat;
+    background-size: contain;
+  }
+}
+@media screen and (max-width: 767px) {
+  .footer_social_icon {
+    flex-direction: inherit !important;
+  }
+  div#accordionExample {
+    margin-top: -370px;
+  }
+  .be_part_section h2 {
+    text-align: center;
+  }
+  .mighty_oaks_left_block h2 {
+    text-align: center;
+  }
+  .accordion_top_content_block h2 {
+    font-size: 3rem;
+  }
+  .price_box {
+    width: 29%;
+  }
+}
+@media screen and (max-width: 535px) {
+  .price_box {
+    width: 28%;
+  }
+}
+@media screen and (max-width: 677px) {
+  .pr_content {
+    padding: 0 10px;
+  }
+  .pr_content h2 {
+    font-size: 31px;
+    line-height: 34px;
+  }
+  .pr_content p {
+    font-size: 12px;
+  }
+  .name_phone_box {
+    margin-top: -10px;
+  }
+  form button {
+    border-radius: 10px;
+    font-size: 18px;
+    margin: 24px 0;
+  }
+  .popup_main {
+    flex-direction: column;
+  }
+  .popup_left {
+    width: 100%;
+    text-align: center;
+  }
+  .popup_right {
+    width: 100%;
+  }
+  .popup_left img {
+    width: 80%;
+    height: 360px;
+    object-fit: cover;
+  }
+  .footer_social_icon {
+    flex-direction: inherit !important;
+  }
+  .trusted_img_block img {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 473px) {
+  .trusted_img_block img {
+    width: 100%;
+    height: auto;
+  }
+  li.nav-item.payment button {
+    font-size: 9px;
+  }
+  .war_content_box h2 {
+    font-size: 20px;
+  }
+  .popup_left {
+    height: auto;
+  }
+  .popup_left img {
+    height: 270px;
+    width: 80%;
+  }
+  .billing_btn {
+    width: 100%;
+    padding: 2px;
+    background-color: #be1e2d;
+    color: #fff;
+    border: none;
+    outline: none;
+    font-size: 28px;
+    margin: 16px 0;
+  }
+  .email_box {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    margin-top: -5px;
+  }
+  .popup_right {
+    padding: 0;
+  }
+  .pr_content h2 {
+    margin-top: 18px;
+  }
+  .pr_content p {
+    padding: 2px;
+    line-height: 18px;
+  }
+  .accordion_top_content_block h2 {
+    font-size: 2rem;
+  }
+}
+@media screen and (max-width: 448px) {
+  .price_box {
+    width: 27%;
+  }
+}
+@media screen and (max-width: 433px) {
+  .price_box {
+    width: 27%;
+  }
+  .price_block {
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 413px) {
+  .price_block {
+    justify-content: center;
+  }
+  .price_box {
+    width: 27%;
+  }
+}
+@media screen and (max-width: 389px) {
+  .price_box {
+    width: 26%;
+  }
+}
+@media screen and (max-width: 346px) {
+  .price_box {
+    width: 25%;
+    font-size: 14px;
+  }
+}
