@@ -165,24 +165,14 @@ tabButtons[index].style.border="1px solid #000";
 
 // alert("hggh");
 // });
-let accTabCon = document.querySelector(".accordion_top_content_block");
+
 let tab_one = document.querySelector('#collapseOne');
 let tab_two = document.querySelector('#collapseTwo');
-let tab_three = document.querySelector('#collapseThree');
 
 function nextBtn(index){
   // alert(index);
   if(index == 0 || index == 1){
 tab_one.classList.remove("show");
 tab_two.classList.add("show");
-accTabCon.classList.add("active");
-  }
-  
-  if(index == 2){
-    tab_two.classList.remove("show");
-    accTabCon.classList.remove("active");
-    tab_three.classList.add("show");
   }
 }
-
-
